@@ -67,5 +67,6 @@ certifications:
 #   - Machine Learning
 #   - Photography
 # Test update
-# Test change
+# Test change - testing new OIDC validation
   - AWS
+  - Lambda
