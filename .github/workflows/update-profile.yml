@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Update profiles.dev
-        uses: ./  # Will use nomadops/profiles.dev@v1 after testing
-        # with:
-        #   api-endpoint: 'https://httpbin.org/post'  # Uncomment only for mock testing
-        #   debug: true
+        uses: nomadops/profiles.dev@main  # Using the original action
+        with:
+          api-endpoint: 'https://httpbin.org/post'  # Using mock for testing
+          debug: true
