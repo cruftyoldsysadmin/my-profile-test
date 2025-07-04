@@ -20,5 +20,5 @@ jobs:
       - name: Update profiles.dev
         uses: nomadops/profiles.dev@main  # Using the original action
         with:
-          api-endpoint: 'https://httpbin.org/post'  # Using mock for testing
+          # api-endpoint: 'https://httpbin.org/post'  # Commented out - using production API
           debug: true
